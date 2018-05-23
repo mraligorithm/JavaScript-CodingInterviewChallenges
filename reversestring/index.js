@@ -20,4 +20,14 @@ function reverse01(str) {
 function reverse02(str) {
     return str.split('').reverse().join('');
 }
-module.exports = reverse02;
+
+// reverse using the for loop
+function reverse03(str) {
+    let reversed = '';
+    for (let char of str) {
+        reversed = char + reversed;
+    }
+    return reversed;
+}
+
+module.exports = reverse03;
