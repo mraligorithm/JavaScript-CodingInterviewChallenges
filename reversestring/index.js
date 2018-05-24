@@ -35,6 +35,9 @@ function reverse04(str) {
     return str.split('').reduce((reversed, char) => {
         return char + reversed;
     }, '');
+    // Can also be done -> return str.split('').reduce((reversed, char) => char + rev, '');
 }
-
+// change the end of the function name number to check tests on different fucntions
 module.exports = reverse04;
+
+// Learn more about debugger; to use for debugging 
